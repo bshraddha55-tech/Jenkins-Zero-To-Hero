@@ -122,6 +122,9 @@ usermod -aG docker jenkins
 usermod -aG docker ubuntu
 systemctl restart docker
 ```
+To connect to jenkins session through root
+su - jenkins
+
 
 Once you are done with the above steps, it is better to restart Jenkins.
 
